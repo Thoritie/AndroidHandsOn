@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.androidhandson">
 
+    <uses-permission android:name="android.permission.CAMERA" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,42 +10,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidHandsOn">
-        <activity android:name=".fragment.ExampleFragmentActivity">
-             <intent-filter>
-             <action android:name="android.intent.action.MAIN" />
-
-
-             <category android:name="android.intent.category.LAUNCHER" />
-             </intent-filter>
-        </activity>
-        <activity android:name=".navigate.TwoActivity" />
-        <activity
-            android:name=".navigate.OneActivity"
-            android:windowSoftInputMode="adjustResize">
+        <activity android:name=".permission.PermissionActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity">
 
-            <!-- <intent-filter> -->
-            <!-- <action android:name="android.intent.action.MAIN" /> -->
-
-
-            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-            <!-- </intent-filter> -->
+        <activity android:name=".fragment.ExampleFragmentActivity" />
+        <activity android:name=".navigate.TwoActivity" />
+        <activity
+            android:name=".navigate.OneActivity"
+            android:windowSoftInputMode="adjustResize">
         </activity>
-        <activity android:name=".Login">
-
-            <!-- <intent-filter> -->
-            <!-- <action android:name="android.intent.action.MAIN" /> -->
-
-
-            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-            <!-- </intent-filter> -->
-        </activity>
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".Login" />
     </application>
-
 </manifest>
