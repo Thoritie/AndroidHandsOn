@@ -1,0 +1,16 @@
+- request:
+    method: GET
+    url: /
+
+  response:
+    status: 200
+    headers:
+      content-type: application/json
+    body: "{\"message\": \"Thor is coming\"}"
+
+- request:
+    method: GET
+    url: /users/1
+  response:
+    status: 200
+    file: user_response.json
