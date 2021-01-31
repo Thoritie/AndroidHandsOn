@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_top_default">16dp</dimen>
+    <dimen name="padding_default">16dp</dimen>
+
+    <dimen name="button_height_default">48dp</dimen>
+
+
+    <dimen name="text_default">16sp</dimen>
+    <dimen name="text_title">28sp</dimen>
+
+</resources>

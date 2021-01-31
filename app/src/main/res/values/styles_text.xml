@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Text" parent="Theme.AndroidHandsOn">
+        <item name="android:textSize">@dimen/text_default</item>
+        <item name="fontFamily">@font/kanit_regular</item>
+    </style>
+
+    <style name="Text.Title" parent="Theme.AndroidHandsOn">
+        <item name="android:textSize">@dimen/text_title</item>
+        <item name="fontFamily">@font/kanit_medium</item>
+    </style>
+</resources>

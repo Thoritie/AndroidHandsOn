@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="name">ชื่อ</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="login">login</string>
+</resources>

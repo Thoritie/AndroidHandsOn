@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AndroidHandsOn</string>
+    <string name="name">Name</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="login">login</string>
+    <string name="btn_login">Login</string>
+    <string name="sign_in">sign in</string>
+    <string name="sign_up">sign up</string>
+    <string name="next">Next</string>
+</resources>
